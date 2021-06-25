@@ -18,7 +18,7 @@ public class K_AnaSayfa extends javax.swing.JFrame {
    
     @SuppressWarnings("unchecked")
     
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -76,13 +76,13 @@ public class K_AnaSayfa extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
             // k_REZ GİDLİYOR
           new K_Rez().setVisible(true);
             this.dispose();           
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
     
@@ -99,7 +99,7 @@ public class K_AnaSayfa extends javax.swing.JFrame {
 
         new AnaSayfa().setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_button2ActionPerformed
+    }
 
    
     public static void main(String args[]) {

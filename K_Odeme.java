@@ -26,7 +26,7 @@ public class K_Odeme extends javax.swing.JFrame {
    
 // 64.ve74.kod satırlarında  Kartnotext ve KartŞifreText Oluşturdum. 
     
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -63,7 +63,7 @@ public class K_Odeme extends javax.swing.JFrame {
         jLabel3.setText("Kart Şifresi");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 190, 70, 40));
 
-        jTextField3.setName("B_pass"); // NOI18N
+        jTextField3.setName("B_pass"); 
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField3ActionPerformed(evt);
@@ -71,7 +71,7 @@ public class K_Odeme extends javax.swing.JFrame {
         });
         jPanel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 230, 270, 30));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 12)); 
         jLabel1.setText("NOT: Kart Şiferesi : 1234");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 30, 160, 20));
 
@@ -87,7 +87,7 @@ public class K_Odeme extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
        
@@ -131,15 +131,15 @@ public class K_Odeme extends javax.swing.JFrame {
             
              JOptionPane.showMessageDialog(this,"Şifre Yanlış Lütfen Tekrar Giriniz! ");
         }
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }
 
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {
        
-    }//GEN-LAST:event_jTextField2ActionPerformed
+    }
 
-    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {
      
-    }//GEN-LAST:event_jTextField3ActionPerformed
+    }
 
     public static void main(String args[]) {
    
@@ -167,7 +167,7 @@ public class K_Odeme extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -175,5 +175,5 @@ public class K_Odeme extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
-    // End of variables declaration//GEN-END:variables
+    
 }

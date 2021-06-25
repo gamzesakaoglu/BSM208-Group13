@@ -43,13 +43,15 @@ public class K_Koltuk extends javax.swing.JFrame {
                   
                   JOptionPane.showMessageDialog(this,"Error");
                   
-                   }else{
+                   }
+               else{
                   
                  jTextField2.setText(rs1.getString("ToplamBilet"));
                  jTextField3.setText(rs1.getString("MevcutBilet"));
               }
              
-          } catch (Exception e) {
+          } 
+          catch (Exception e) {
         }
     }
      public void BiletBUl() {
@@ -57,13 +59,14 @@ public class K_Koltuk extends javax.swing.JFrame {
       Class.forName("com.mysql.jdbc.Driver");
      mycoib = DriverManager.getConnection(url,user,pass);
      
-       } catch (Exception e) {
+       } 
+          catch (Exception e) {
          }
     }
   
     @SuppressWarnings("unchecked")
     //Dizayn kısmı butonlar tanımlandı 
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         jTextField1 = new javax.swing.JTextField();
@@ -87,16 +90,18 @@ public class K_Koltuk extends javax.swing.JFrame {
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
-            }
-        });
+        }
+        }
+           );
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 350, 250, 30));
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", " " }));
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox1ActionPerformed(evt);
-            }
-        });
+        }
+        }
+          );
         getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 80, 150, 30));
 
         jPanel1.setBackground(new java.awt.Color(0, 102, 102));
@@ -120,15 +125,16 @@ public class K_Koltuk extends javax.swing.JFrame {
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
-            }
-        });
+        }
+        } 
+           );
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 350, 250, 30));
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     //Devam et Button Tıklanırsa  K_Odeme Sayfasına Yönlenecektir.
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
           
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -152,12 +158,14 @@ public class K_Koltuk extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this,"Koltuk Numarası Alındı!");
           
 //Try-catch ile hata yazdırma
-        }catch (ClassNotFoundException ex) {
+        }
+         catch (ClassNotFoundException ex) {
             java.util.logging.Logger.getLogger(K_Koltuk.class.getName()).log(java.util.logging.Level.
                 SEVERE,null, ex);
             JOptionPane.showMessageDialog(this,"Hata!");
 
-        } catch (SQLException ex) {
+        } 
+         catch (SQLException ex) {
             
             java.util.logging.Logger.getLogger(K_Koltuk.class.getName()).log(java.util.logging.Level.
                 SEVERE,null, ex);
@@ -165,41 +173,45 @@ public class K_Koltuk extends javax.swing.JFrame {
         }
         new K_Odeme().setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
         
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }
 
-    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {
        
-    }//GEN-LAST:event_jComboBox1ActionPerformed
+    }
      public static void main(String args[]) {
-         try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
+     try {
+     for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+     if ("Nimbus".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
+     break;
                 }
             }
         } catch (ClassNotFoundException ex) {
             java.util.logging.Logger.getLogger(K_Koltuk.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
+        } 
+          catch (InstantiationException ex) {
             java.util.logging.Logger.getLogger(K_Koltuk.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
+        } 
+          catch (IllegalAccessException ex) {
             java.util.logging.Logger.getLogger(K_Koltuk.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+        } 
+          catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(K_Koltuk.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new K_Koltuk().setVisible(true);
-            }
-        });
+        }
+        }
+            );
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JComboBox<String> jComboBox1;
@@ -210,5 +222,5 @@ public class K_Koltuk extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
-    // End of variables declaration//GEN-END:variables
+    
 }

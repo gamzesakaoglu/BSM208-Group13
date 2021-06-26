@@ -168,4 +168,4 @@ public class K_Sayfa extends javax.swing.JFrame { //Veri tabnı bağlantısı
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     
-}
+}  //Çerçeve Panel ve button tasarmı ve yazı biçimi 

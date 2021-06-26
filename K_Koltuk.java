@@ -91,8 +91,7 @@ public class K_Koltuk extends javax.swing.JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
         }
-        }
-           );
+        } );
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 350, 250, 30));
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", " " }));
@@ -100,8 +99,7 @@ public class K_Koltuk extends javax.swing.JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox1ActionPerformed(evt);
         }
-        }
-          );
+        } );
         getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 80, 150, 30));
 
         jPanel1.setBackground(new java.awt.Color(0, 102, 102));
@@ -126,8 +124,7 @@ public class K_Koltuk extends javax.swing.JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
         }
-        } 
-           );
+        }  );
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 350, 250, 30));
 
         pack();
@@ -151,7 +148,7 @@ public class K_Koltuk extends javax.swing.JFrame {
        // select id ile k_koltuk veritabına bir artıma işlemi yapıyorum .
                   int mevcutBilet = Integer.parseInt(jTextField3.getText());
                    mevcutBilet=mevcutBilet+1;
-             pst.setInt(2, mevcutBilet);
+                   pst.setInt(2, mevcutBilet);
         
                 //Koltuk Sayısı  Mevcutdur ve İstege Göre artırılabilir.
             pst.executeUpdate();

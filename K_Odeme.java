@@ -89,7 +89,7 @@ public class K_Odeme extends javax.swing.JFrame {
         pack();
     }
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
        
  try{
       Class.forName("com.mysql.jdbc.Driver");
@@ -103,15 +103,18 @@ public class K_Odeme extends javax.swing.JFrame {
          new Y_AnaSayfa().setVisible(true);
          this.dispose(); //yönlendirme
          
-          }else{
+          }
+    else{
          JOptionPane.showMessageDialog(this,"Başarısız Lütfen Tekrar Giriniz! ");
          mycoib.close();
         
      }
-  }catch(SQLException e){
+  }
+       catch(SQLException e){
       e.printStackTrace();
       System.out.println("HATA");
-  }     catch (ClassNotFoundException ex) {
+  }     
+       catch (ClassNotFoundException ex) {
         
         }
              if("1234".equals(jTextField3.getText())){ //1234 girildiğinde yönlendirileceği yer ve uygulamada allacağı geribildirim
@@ -127,7 +130,8 @@ public class K_Odeme extends javax.swing.JFrame {
      
              this.dispose();
              
-             }else{
+             }
+       else{
             
              JOptionPane.showMessageDialog(this,"Şifre Yanlış Lütfen Tekrar Giriniz! ");
         }
@@ -150,13 +154,17 @@ public class K_Odeme extends javax.swing.JFrame {
                     break;
                 }
             }
-        } catch (ClassNotFoundException ex) {
+        } 
+       catch (ClassNotFoundException ex) {
             java.util.logging.Logger.getLogger(K_Odeme.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
+        } 
+       catch (InstantiationException ex) {
             java.util.logging.Logger.getLogger(K_Odeme.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
+        } 
+       catch (IllegalAccessException ex) {
             java.util.logging.Logger.getLogger(K_Odeme.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+        } 
+       catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(K_Odeme.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
       

@@ -220,4 +220,4 @@ public class K_Koltuk extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
     
-}
+} //Çerçeve Panel ve button tasarmı ve yazı biçimi 

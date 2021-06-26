@@ -25,10 +25,9 @@ public class K_Sayfa extends javax.swing.JFrame { //Veri tabnı bağlantısı
         initComponents();
     }
 
-    
     @SuppressWarnings("unchecked")
     //Dizayn parametreleri
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -46,11 +45,11 @@ public class K_Sayfa extends javax.swing.JFrame { //Veri tabnı bağlantısı
         jPanel1.setBackground(new java.awt.Color(0, 102, 102));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); 
         jLabel1.setText("Hava Yolu");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 130, 80, 30));
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 14)); 
         jLabel2.setText("Gidilecek Yer");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 60, 80, 30));
 
@@ -58,7 +57,7 @@ public class K_Sayfa extends javax.swing.JFrame { //Veri tabnı bağlantısı
         jPanel1.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 130, 170, 30));
 
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seçiniz", "\"Adana\"", "\"Adıyaman\"", "\"Afyonkarahisar\"", "\"Ağrı\"", "\"Aksaray\"", "\"Amasya\"", "\"Ankara\"", "\"Antalya\"", "\"Ardahan\"", "\"Artvin\"", "\"Aydın\"", "\"Balıkesir\"", "\"Bartın\"", "\"Batman\"", "\"Bayburt\"", "\"Bilecik\"", "\"Bingöl\"", "\"Bitlis\"", "\"Bolu\"", "\"Burdur\"", "\"Bursa\"", "\"Çanakkale\"", "\"Çankırı\"", "\"Çorum\"", "\"Denizli\"", "\"Diyarbakır\"", "\"Düzce\"", "\"Edirne\"", "\"Elazığ\"", "\"Erzincan\"", "\"Erzurum\"", "\"Eskişehir\"", "\"Gaziantep\"", "\"Giresun\"", "\"Gümüşhane\"", "\"Hakkâri\"", "\"Hatay\"", "\"Iğdır\"", "\"Isparta\"", "\"İstanbul\"", "\"İzmir\"", "\"Kahramanmaraş\"", "\"Karabük\"", "\"Karaman\"", "\"Kars\"", "\"Kastamonu\"", "\"Kayseri\"", "\"Kilis\"", "\"Kırıkkale\"", "\"Kırklareli\"", "\"Kırşehir\"", "\"Kocaeli\"", "\"Konya\"", "\"Kütahya\"", "\"Malatya\"", "\"Manisa\"", "\"Mardin\"", "\"Mersin\"", "\"Muğla\"", "\"Muş\"", "\"Nevşehir\"", "\"Niğde\"", "\"Ordu\"", "\"Osmaniye\"", "\"Rize\"", "\"Sakarya\"", "\"Samsun\"", "\"Şanlıurfa\"", "\"Siirt\"", "\"Sinop\"", "\"Sivas\"", "\"Şırnak\"", "\"Tekirdağ\"", "\"Tokat\"", "\"Trabzon\"", "\"Tunceli\"", "\"Uşak\"", "\"Van\"", "\"Yalova\"", "\"Yozgat\"", "\"Zonguldak\"" }));
-        jComboBox3.setName(""); // NOI18N
+        jComboBox3.setName(""); 
         jPanel1.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 60, 170, 30));
 
         jButton1.setBackground(new java.awt.Color(51, 255, 51));
@@ -81,14 +80,14 @@ public class K_Sayfa extends javax.swing.JFrame { //Veri tabnı bağlantısı
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 640, 270));
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
         new K_AnaSayfa().setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
              try
         {
 
@@ -117,7 +116,8 @@ public class K_Sayfa extends javax.swing.JFrame { //Veri tabnı bağlantısı
             java.util.logging.Logger.getLogger(KayıtOl.class.getName()).log(java.util.logging.Level.
                 SEVERE,null, ex); //sınıf bulunamadı hatası null döndür
 
-        } catch (SQLException ex) {
+        } 
+        catch (SQLException ex) {
            
             java.util.logging.Logger.getLogger(KayıtOl.class.getName()).log(java.util.logging.Level.
                 SEVERE,null, ex); //SQL bağlantı hatası null döndür
@@ -126,7 +126,7 @@ public class K_Sayfa extends javax.swing.JFrame { //Veri tabnı bağlantısı
         
         
        
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }
 
    
     public static void main(String args[]) {
@@ -138,13 +138,17 @@ public class K_Sayfa extends javax.swing.JFrame { //Veri tabnı bağlantısı
                     break;
                 }
             }
-        } catch (ClassNotFoundException ex) {
+        } 
+        catch (ClassNotFoundException ex) {
             java.util.logging.Logger.getLogger(K_Sayfa.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
+        } 
+        catch (InstantiationException ex) {
             java.util.logging.Logger.getLogger(K_Sayfa.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
+        } 
+        catch (IllegalAccessException ex) {
             java.util.logging.Logger.getLogger(K_Sayfa.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+        } 
+        catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(K_Sayfa.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
       
@@ -155,7 +159,7 @@ public class K_Sayfa extends javax.swing.JFrame { //Veri tabnı bağlantısı
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JComboBox<String> jComboBox2;
@@ -163,5 +167,5 @@ public class K_Sayfa extends javax.swing.JFrame { //Veri tabnı bağlantısı
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
-    // End of variables declaration//GEN-END:variables
+    
 }

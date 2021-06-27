@@ -83,7 +83,6 @@ public class K_Bildirim extends javax.swing.JFrame {
     
     
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -147,7 +146,7 @@ public class K_Bildirim extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable1MouseClicked
         DefaultTableModel RecordTable = (DefaultTableModel)jTable1.getModel();
@@ -155,13 +154,11 @@ public class K_Bildirim extends javax.swing.JFrame {
         int SelectedRows = jTable1.getSelectedRow();
 
     
-    }//GEN-LAST:event_jTable1MouseClicked
-
+    }
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         new K_AnaSayfa().setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
-
+    }
     
     public static void main(String args[]) {
        
@@ -193,7 +190,6 @@ public class K_Bildirim extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;

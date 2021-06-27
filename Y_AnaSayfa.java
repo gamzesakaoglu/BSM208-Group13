@@ -74,18 +74,18 @@ public class Y_AnaSayfa extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
          new Y_Bildirim().setVisible(true);
          this.dispose();        
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }
 
     private void button2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button2ActionPerformed
 
         new AnaSayfa().setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_button2ActionPerformed
+    }
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         new Y_Rez().setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }
 
     
     public static void main(String args[]) {
@@ -118,10 +118,10 @@ public class Y_AnaSayfa extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    /
     private java.awt.Button button2;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JPanel jPanel1;
-    // End of variables declaration//GEN-END:variables
+   
 }

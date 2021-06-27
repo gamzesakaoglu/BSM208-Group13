@@ -42,7 +42,6 @@ public class Y_Bildirim extends javax.swing.JFrame {
 
     
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -91,7 +90,7 @@ public class Y_Bildirim extends javax.swing.JFrame {
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 420, 480));
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
    try
@@ -126,12 +125,12 @@ public class Y_Bildirim extends javax.swing.JFrame {
 
         }    
 
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         new Y_AnaSayfa().setVisible(true);
         this.dispose();     
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }
 
     
     public static void main(String args[]) {
@@ -164,7 +163,6 @@ public class Y_Bildirim extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private java.awt.TextField A1;
     private java.awt.TextField A2;
     private javax.swing.JButton jButton1;

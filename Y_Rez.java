@@ -4,7 +4,7 @@
       * 
       * k_kayit Tablo'daki Veriler Gelmektedir Mysql Kodu select * from  Sayesinde Bütün
       * Kullaınıcı Kayıtlarındaki Veriler Gelmekdedir.
-     * 
+     *  
      */
 
 

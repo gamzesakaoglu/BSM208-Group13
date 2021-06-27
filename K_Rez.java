@@ -3,7 +3,7 @@
      * k_kayit Tablosundan Verileri Çekiyorum
      * 
      * Kişiye Özel Gelmesi İçin WHERE Mysql Kodu Kullanıldı . TC Göre Kullanıcı Bilgileri Gelmektedir
-     * 
+     *  
      * Ara Button Tıklarsa Eger TC k_kayit Bulunursa Veriler Gelir . Eger Bulunamazsa Uyarı Mesajı Çıkar
      */
 

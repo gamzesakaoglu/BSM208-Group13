@@ -1,3 +1,13 @@
+ /** Burada Veri Tabanı Kullanıldı 
+      * 
+      * Geri Button Ekledim Tıklanırsa  Y_AnaSayfa Gidilir.
+      * 
+      * k_kayit Tablo'daki Veriler Gelmektedir Mysql Kodu select * from  Sayesinde Bütün
+      * Kullaınıcı Kayıtlarındaki Veriler Gelmekdedir.
+     * 
+     */
+
+
 
 package odev;
 
@@ -12,14 +22,6 @@ import javax.swing.table.DefaultTableModel;
 
 
 
-     /** Burada Veri Tabanı Kullanıldı 
-      * 
-      * Geri Button Ekledim Tıklanırsa  Y_AnaSayfa Gidilir.
-      * 
-      * k_kayit Tablo'daki Veriler Gelmektedir Mysql Kodu select * from  Sayesinde Bütün
-      * Kullaınıcı Kayıtlarındaki Veriler Gelmekdedir.
-     * 
-     */
 public class Y_Rez extends javax.swing.JFrame {
 
    private static final String url = "jdbc:mysql://localhost:3306/odev";
@@ -79,7 +81,7 @@ public class Y_Rez extends javax.swing.JFrame {
         
     }
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -143,19 +145,19 @@ public class Y_Rez extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable1MouseClicked
+    private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {
         DefaultTableModel RecordTable = (DefaultTableModel)jTable1.getModel();
 
         int SelectedRows = jTable1.getSelectedRow();
 
-    }//GEN-LAST:event_jTable1MouseClicked
+    }
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         new Y_AnaSayfa().setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }
 
     
     public static void main(String args[]) {
@@ -186,10 +188,10 @@ public class Y_Rez extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    
     private javax.swing.JButton jButton1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
-    // End of variables declaration//GEN-END:variables
+    
 }

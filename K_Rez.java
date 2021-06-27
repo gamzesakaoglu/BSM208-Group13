@@ -1,3 +1,12 @@
+/** Burada Veri Tabanı Kullanıldı 
+     *  
+     * k_kayit Tablosundan Verileri Çekiyorum
+     * 
+     * Kişiye Özel Gelmesi İçin WHERE Mysql Kodu Kullanıldı . TC Göre Kullanıcı Bilgileri Gelmektedir
+     * 
+     * Ara Button Tıklarsa Eger TC k_kayit Bulunursa Veriler Gelir . Eger Bulunamazsa Uyarı Mesajı Çıkar
+     */
+
 
 package odev;
 
@@ -14,14 +23,7 @@ import javax.swing.table.DefaultTableModel;
 
 
 
-    /** Burada Veri Tabanı Kullanıldı 
-     *  
-     * k_kayit Tablosundan Verileri Çekiyorum
-     * 
-     * Kişiye Özel Gelmesi İçin WHERE Mysql Kodu Kullanıldı . TC Göre Kullanıcı Bilgileri Gelmektedir
-     * 
-     * Ara Button Tıklarsa Eger TC k_kayit Bulunursa Veriler Gelir . Eger Bulunamazsa Uyarı Mesajı Çıkar
-    */
+   
 public class K_Rez extends javax.swing.JFrame {
 
     Connection mycoib;  
@@ -40,7 +42,7 @@ public class K_Rez extends javax.swing.JFrame {
 
    
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -130,24 +132,24 @@ public class K_Rez extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable1MouseClicked
+    private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {
         
 
         int SelectedRows = jTable1.getSelectedRow();
-    }//GEN-LAST:event_jTable1MouseClicked
+    }
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         new K_AnaSayfa().setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {
         
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
 try
         {
            
@@ -190,7 +192,7 @@ try
         } 
         
         
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }
 
     
     public static void main(String args[]) {
@@ -221,7 +223,7 @@ try
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
@@ -230,5 +232,5 @@ try
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
     private javax.swing.JTextField jTextField1;
-    // End of variables declaration//GEN-END:variables
+    
 }

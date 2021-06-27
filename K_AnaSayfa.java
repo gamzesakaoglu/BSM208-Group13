@@ -78,24 +78,24 @@ public class K_AnaSayfa extends javax.swing.JFrame {
         pack();
     }
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
             // k_REZ GİDLİYOR
           new K_Rez().setVisible(true);
             this.dispose();           
     }
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {d
     
             new K_Bildirim().setVisible(true);
             this.dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
              new K_Sayfa().setVisible(true);
             this.dispose();
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }
 
-    private void button2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button2ActionPerformed
+    private void button2ActionPerformed(java.awt.event.ActionEvent evt) {
 
         new AnaSayfa().setVisible(true);
         this.dispose();
@@ -131,11 +131,11 @@ public class K_AnaSayfa extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+  
     private java.awt.Button button2;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JPanel jPanel1;
-    // End of variables declaration//GEN-END:variables
+   
 }

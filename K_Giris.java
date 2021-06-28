@@ -34,7 +34,7 @@ public class K_Giris extends javax.swing.JFrame {
 
    
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -99,18 +99,18 @@ public class K_Giris extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void button2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button2ActionPerformed
+    private void button2ActionPerformed(java.awt.event.ActionEvent evt) {
     
        new KayıtOl().setVisible(true);
       this.dispose(); 
        
      
         
-    }//GEN-LAST:event_button2ActionPerformed
+    }
 
-    private void button1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button1ActionPerformed
+    private void button1ActionPerformed(java.awt.event.ActionEvent evt) {
                
     Connection mycoib;  
    String url = "jdbc:mysql://localhost:3306/odev";
@@ -141,13 +141,13 @@ public class K_Giris extends javax.swing.JFrame {
           
         }
         
-    }//GEN-LAST:event_button1ActionPerformed
+    }
 
-    private void button3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button3ActionPerformed
+    private void button3ActionPerformed(java.awt.event.ActionEvent evt) {
 
         new AnaSayfa().setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_button3ActionPerformed
+    }
 
     
     public static void main(String args[]) {
@@ -179,7 +179,7 @@ public class K_Giris extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+   
     private java.awt.TextField Adi;
     private java.awt.TextField Sifre;
     private java.awt.Button button1;
@@ -188,5 +188,5 @@ public class K_Giris extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
-    // End of variables declaration//GEN-END:variables
+    
 }

@@ -37,7 +37,7 @@ public class KayıtOl extends javax.swing.JFrame {
 
    
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -113,13 +113,13 @@ public class KayıtOl extends javax.swing.JFrame {
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 750, 570));
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void A4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_A4ActionPerformed
+    private void A4ActionPerformed(java.awt.event.ActionEvent evt) {
         
-    }//GEN-LAST:event_A4ActionPerformed
+    }
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
            try
         {
 
@@ -155,13 +155,13 @@ public class KayıtOl extends javax.swing.JFrame {
 
         }
         
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }
 
-    private void button2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button2ActionPerformed
+    private void button2ActionPerformed(java.awt.event.ActionEvent evt) {
 
         new AnaSayfa().setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_button2ActionPerformed
+    }
 
     
     public static void main(String args[]) {
@@ -194,7 +194,7 @@ public class KayıtOl extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    
     private java.awt.TextField A1;
     private java.awt.TextField A2;
     private java.awt.TextField A3;
@@ -210,5 +210,5 @@ public class KayıtOl extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
-    // End of variables declaration//GEN-END:variables
+    
 }

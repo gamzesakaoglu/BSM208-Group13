@@ -37,7 +37,6 @@ public class K_Bildirim extends javax.swing.JFrame {
     int q, i, id, deleteItem;
    
     
-    
     public K_Bildirim() {
         initComponents();
         upDateDB();

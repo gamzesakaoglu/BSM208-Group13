@@ -18,7 +18,7 @@ public class AnaSayfa extends javax.swing.JFrame {
 
     
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         jPanel3 = new javax.swing.JPanel();
@@ -65,9 +65,9 @@ public class AnaSayfa extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {
       
   
 
@@ -76,14 +76,14 @@ public class AnaSayfa extends javax.swing.JFrame {
      this.dispose();
 
         
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {
         
             new Y_Giris().setVisible(true);
             this.dispose(); 
          
-    }//GEN-LAST:event_jButton6ActionPerformed
+    }
 
    
     public static void main(String args[]) {
@@ -117,9 +117,9 @@ public class AnaSayfa extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+   
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JPanel jPanel3;
-    // End of variables declaration//GEN-END:variables
+    
 }

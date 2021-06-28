@@ -154,7 +154,6 @@ public class Y_Bildirim extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(Y_Bildirim.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
      
-
        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
